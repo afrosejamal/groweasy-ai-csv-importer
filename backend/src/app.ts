@@ -18,6 +18,6 @@ app.get("/", (_req, res) => {
 });
 
 // Import Routes
-app.use("/api", importRoutes);
+app.use("/api/backend", importRoutes);
 
 export default app;
