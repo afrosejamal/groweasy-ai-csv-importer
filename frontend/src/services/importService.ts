@@ -3,7 +3,7 @@ export async function uploadCsv(file: File) {
 
   formData.append("file", file);
 
-  const response = await fetch("http://localhost:5000/api/import", {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || ""}/api/backend/import`, {
     method: "POST",
     body: formData,
   });
