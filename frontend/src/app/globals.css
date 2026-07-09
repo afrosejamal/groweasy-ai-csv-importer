@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+  Token system
+  - Neutral base: warm, slightly off-white/off-black slate (not stark gray, not pure black)
+  - Single accent: muted forest-emerald, tied to "GrowEasy" — used sparingly (primary actions,
+    completed steps, success states)
+  - Data-tool details (row numbers, stats, timers) render in the mono face
+*/
+
+:root {
+  --radius: 0.625rem;
+
+  --background: oklch(0.985 0.003 90);
+  --foreground: oklch(0.17 0.02 260);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.17 0.02 260);
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.17 0.02 260);
+
+  --primary: oklch(0.52 0.11 162);
+  --primary-foreground: oklch(0.99 0.005 160);
+
+  --secondary: oklch(0.96 0.006 260);
+  --secondary-foreground: oklch(0.22 0.02 260);
+
+  --muted: oklch(0.96 0.006 260);
+  --muted-foreground: oklch(0.5 0.014 260);
+
+  --accent: oklch(0.94 0.03 162);
+  --accent-foreground: oklch(0.28 0.06 162);
+
+  --destructive: oklch(0.58 0.21 25);
+  --destructive-foreground: oklch(0.99 0 0);
+
+  --success: oklch(0.52 0.11 162);
+  --success-foreground: oklch(0.99 0.005 160);
+
+  --border: oklch(0.9 0.006 260);
+  --input: oklch(0.9 0.006 260);
+  --ring: oklch(0.52 0.11 162 / 0.5);
+}
+
+.dark {
+  --background: oklch(0.2 0.015 255);
+  --foreground: oklch(0.94 0.006 260);
+
+  --card: oklch(0.24 0.016 255);
+  --card-foreground: oklch(0.94 0.006 260);
+
+  --popover: oklch(0.24 0.016 255);
+  --popover-foreground: oklch(0.94 0.006 260);
+
+  --primary: oklch(0.72 0.13 162);
+  --primary-foreground: oklch(0.15 0.02 255);
+
+  --secondary: oklch(0.29 0.015 255);
+  --secondary-foreground: oklch(0.94 0.006 260);
+
+  --muted: oklch(0.29 0.015 255);
+  --muted-foreground: oklch(0.66 0.012 260);
+
+  --accent: oklch(0.32 0.045 162);
+  --accent-foreground: oklch(0.88 0.03 162);
+
+  --destructive: oklch(0.62 0.19 25);
+  --destructive-foreground: oklch(0.99 0 0);
+
+  --success: oklch(0.72 0.13 162);
+  --success-foreground: oklch(0.15 0.02 255);
+
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 12%);
+  --ring: oklch(0.72 0.13 162 / 0.5);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-feature-settings: "cv11", "ss01";
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
