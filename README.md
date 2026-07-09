@@ -137,7 +137,15 @@ groweasy-ai-csv-importer/
 ├── vercel.json          # multi-service deployment config (frontend + backend on one domain)
 ├── docker-compose.yml
 ├── README.md
-├── Screenshots/
+├── Screenshot/
+│   ├── screenshot1.png
+│   ├── screenshot2.png
+│   ├── screenshot3.png
+│   ├── screenshot4.png
+│   ├── screenshot5.png
+│   ├── screenshot6.png
+│   ├── screenshot7.png
+│   └── screenshot8.png
 └── Demo/
     └── demo_GrowEasy.mp4
 ```
@@ -221,19 +229,19 @@ docker compose up --build
 
 | Screenshot 1 | Screenshot 2 |
 |---|---|
-| ![Screenshot 1](Screenshots/screenshot1.png) | ![Screenshot 2](Screenshots/screenshot2.png) |
+| ![Screenshot 1](Screenshot/screenshot1.png) | ![Screenshot 2](Screenshot/screenshot2.png) |
 
 | Screenshot 3 | Screenshot 4 |
 |---|---|
-| ![Screenshot 3](Screenshots/screenshot3.png) | ![Screenshot 4](Screenshots/screenshot4.png) |
+| ![Screenshot 3](Screenshot/screenshot3.png) | ![Screenshot 4](Screenshot/screenshot4.png) |
 
 | Screenshot 5 | Screenshot 6 |
 |---|---|
-| ![Screenshot 5](Screenshots/screenshot5.png) | ![Screenshot 6](Screenshots/screenshot6.png) |
+| ![Screenshot 5](Screenshot/screenshot5.png) | ![Screenshot 6](Screenshot/screenshot6.png) |
 
 | Screenshot 7 | Screenshot 8 |
 |---|---|
-| ![Screenshot 7](Screenshots/screenshot7.png) | ![Screenshot 8](Screenshots/screenshot8.png) |
+| ![Screenshot 7](Screenshot/screenshot7.png) | ![Screenshot 8](Screenshot/screenshot8.png) |
 
 ## Demo Video
 
