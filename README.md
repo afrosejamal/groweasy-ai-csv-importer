@@ -1,6 +1,6 @@
 # GrowEasy AI-Powered CSV Importer
 
-An AI-powered CSV importer built for the **GrowEasy Software Developer Internship Assignment**. It extracts CRM lead data from CSV files of arbitrary structure and column naming, then normalizes the output into GrowEasy's standard CRM schema.
+An AI-powered CSV importer that extracts CRM lead data from CSV files of arbitrary structure and column naming, then normalizes the output into GrowEasy's standard CRM schema.
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
@@ -251,7 +251,7 @@ docker compose up --build
 
 ---
 
-## Assignment Requirements Coverage
+## Feature Checklist
 
 | Requirement | Status |
 |---|---|
@@ -264,7 +264,6 @@ docker compose up --build
 | Download processed CSV | Complete |
 | Dark mode | Complete |
 | CSV upload API | Complete |
-| CSV parsing | Complete |
 | AI-driven field mapping | Complete |
 | Batch processing | Complete |
 | Structured JSON responses | Complete |
@@ -302,4 +301,4 @@ B.Tech, Artificial Intelligence & Data Science
 
 ## License
 
-This project was developed exclusively for the GrowEasy Software Developer Internship assignment and is intended for evaluation purposes only.
+This project is licensed under the [MIT License](LICENSE).
