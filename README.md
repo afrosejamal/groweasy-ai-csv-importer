@@ -1,3 +1,5 @@
+<div align="center">
+
 # GrowEasy AI-Powered CSV Importer
 
 An AI-powered CSV importer that extracts CRM lead data from CSV files of arbitrary structure and column naming, then normalizes the output into GrowEasy's standard CRM schema.
@@ -9,14 +11,11 @@ An AI-powered CSV importer that extracts CRM lead data from CSV files of arbitra
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
----
+**[Live Application](https://groweasy-ai-csv-importer-z8pn.vercel.app)** &nbsp;·&nbsp; **[GitHub Repository](https://github.com/afrosejamal/groweasy-ai-csv-importer)**
 
-## Live Demo
+</div>
 
-- **Hosted Application:** [groweasy-ai-csv-importer-z8pn.vercel.app](https://groweasy-ai-csv-importer-z8pn.vercel.app)
-- **GitHub Repository:** [github.com/afrosejamal/groweasy-ai-csv-importer](https://github.com/afrosejamal/groweasy-ai-csv-importer)
-
----
+<br>
 
 ## Overview
 
@@ -30,6 +29,28 @@ Tested against CSV exports commonly seen in the wild, including:
 - Marketing agency reports
 - Sales reports and manually created spreadsheets
 - Custom / non-standard CRM exports
+
+<br>
+
+<details>
+<summary><strong>Table of Contents</strong></summary>
+
+- [Overview](#overview)
+- [How the AI Mapping Works](#how-the-ai-mapping-works)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Application Workflow](#application-workflow)
+- [Project Structure](#project-structure)
+- [Deployment Architecture](#deployment-architecture)
+- [Getting Started](#getting-started)
+- [Screenshots](#screenshots)
+- [Demo Video](#demo-video)
+- [Feature Checklist](#feature-checklist)
+- [Future Improvements](#future-improvements)
+- [Developer](#developer)
+- [License](#license)
+
+</details>
 
 ---
 
@@ -227,21 +248,25 @@ docker compose up --build
 
 <!-- TODO: replace each "Screenshot N" caption below with what it actually shows (e.g. Home Page, CSV Preview, AI Processing, Parsed Records, Dark Mode) -->
 
+<div align="center">
+
 | Screenshot 1 | Screenshot 2 |
-|---|---|
+|:---:|:---:|
 | ![Screenshot 1](Screenshot/screenshot1.png) | ![Screenshot 2](Screenshot/screenshot2.png) |
 
 | Screenshot 3 | Screenshot 4 |
-|---|---|
+|:---:|:---:|
 | ![Screenshot 3](Screenshot/screenshot3.png) | ![Screenshot 4](Screenshot/screenshot4.png) |
 
 | Screenshot 5 | Screenshot 6 |
-|---|---|
+|:---:|:---:|
 | ![Screenshot 5](Screenshot/screenshot5.png) | ![Screenshot 6](Screenshot/screenshot6.png) |
 
 | Screenshot 7 | Screenshot 8 |
-|---|---|
+|:---:|:---:|
 | ![Screenshot 7](Screenshot/screenshot7.png) | ![Screenshot 8](Screenshot/screenshot8.png) |
+
+</div>
 
 ## Demo Video
 
@@ -290,12 +315,16 @@ docker compose up --build
 
 ## Developer
 
+<div align="center">
+
 **Afrose Jamal**
 B.Tech, Artificial Intelligence & Data Science
 
-- GitHub: [github.com/afrosejamal](https://github.com/afrosejamal)
-- LinkedIn: [linkedin.com/in/afrose-fathima-jamal-492b57291](https://www.linkedin.com/in/afrose-fathima-jamal-492b57291)
-- Email: `afrosepvt@gmail.com`
+[![GitHub](https://img.shields.io/badge/GitHub-afrosejamal-181717?style=flat&logo=github&logoColor=white)](https://github.com/afrosejamal)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-afrose--fathima--jamal-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afrose-fathima-jamal-492b57291)
+[![Email](https://img.shields.io/badge/Email-afrosepvt%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:afrosepvt@gmail.com)
+
+</div>
 
 ---
 
